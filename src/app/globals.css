@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: white;
+    color: black;
+}
+
+.border-style {
+border-top-left-radius: 30px;
+border-bottom-right-radius: 30px;
+}
+
+/* Custom CSS to hide the scrollbar */
+.hide-scrollbar {
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+  }
+  
